@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  padding: 10%;
+  background: #ed0716;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 20px 0;
+}
+main h1 {
+  text-align: center;
+  margin: 10px;
+}
+main .loaning {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+main .loaning label {
+  background: #D8CDE0;
+  border: 1px solid #D8CDE0;
+  display: flex;
+  justify-content: center;
+  width: 450px;
+  height: 30px;
+}
+main .loaning label span {
+  border: 1px solid #D8CDE0;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .loaning label input {
+  border: none;
+  width: 450px;
+}
+main .loaning #years {
+  border: 1px solid #D8CDE0;
+  width: 450px;
+  height: 30px;
+}
+main .loaning button {
+  width: 450px;
+  border: none;
+  padding: 5px 0;
+}
+main .results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+main .results .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}/*# sourceMappingURL=style.css.map */
